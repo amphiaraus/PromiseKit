@@ -11,7 +11,7 @@ import PromiseKit
  
  And then in your sources:
 
-    #import <PromiseKit/PromiseKit.h>
+    @import PromiseKit;
 */
 extension CKDatabase {
     public func fetchRecordWithID(_ recordID: CKRecordID) -> Promise<CKRecord> {
